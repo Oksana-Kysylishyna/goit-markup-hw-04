@@ -374,6 +374,25 @@ img {
     margin-bottom: 16px;
 }
 
+.text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.text2-item {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text2-container {
+    display: flex;
+    gap: 16px;
+}
+
 /*----------------------footer--------------------------*/
 
 .icons {
