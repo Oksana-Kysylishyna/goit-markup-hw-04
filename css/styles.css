@@ -317,7 +317,7 @@ img {
 }
 
 .kolo-footer:hover, .kolo-footer:focus {
-background-color: #31d0aa;
+    background-color: #31d0aa;
 }
 
 /*----------------------section2-------------------------------*/
@@ -408,7 +408,7 @@ overflow: hidden;
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 100px 0
+    padding: 100px 0;
 }
 
 .footer-logo .logo-part {
@@ -456,7 +456,7 @@ overflow: hidden;
 }
 
 .footer-container {
-display: flex;
+    display: flex;
     align-items: baseline;
 }
 
