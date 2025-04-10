@@ -460,6 +460,10 @@ overflow: hidden;
     align-items: baseline;
 }
 
+.footer-div {
+    margin-right: 120px;
+}
+
 /*----------------------footer--------------------------*/
 
 .icons {
