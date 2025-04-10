@@ -456,12 +456,8 @@ overflow: hidden;
 }
 
 .footer-container {
-    display: flex;
+display: flex;
     align-items: baseline;
-}
-
-.footer-div {
-    margin-right: 120px;
 }
 
 /*----------------------footer--------------------------*/
