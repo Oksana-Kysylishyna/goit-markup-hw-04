@@ -312,10 +312,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.kolo:hover {
-    background-color: #404bbf;
-}
-.kolo:focus {
+.kolo:hover, .kolo:focus {
     background-color: #404bbf;
 }
 
@@ -333,10 +330,7 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-item:hover .portfolio-text {
         transform: translateY(0%);
 }
 
@@ -381,14 +375,14 @@ img {
 }
 
 .portfolio-text {
+    position: absolute;
+    top: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    position: absolute;
-    top: 0;
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
@@ -397,9 +391,9 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-div {
-    position: relative;
-    overflow: hidden;
+.portfolio-picture {
+position: relative;
+overflow: hidden;
 }
 
 /*----------------------section3-------------------------------*/
